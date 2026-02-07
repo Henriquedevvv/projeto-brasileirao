@@ -7,13 +7,14 @@ body{
 header.principal2{
     background-image: linear-gradient(to bottom, #0B5D1E, #139b33 ) ;
     
-    padding: 40px;
+    padding: 20px;
     padding-bottom: 10px;
-    margin-bottom: 10px;
     
-    
-    
-    
+}
+
+header.principal3{
+    background-color: #0B5D1E;
+    color: rgb(4, 253, 4);
 }
 
 h1.principal{
@@ -23,8 +24,37 @@ h1.principal{
 }
 
 menu > a{
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+
+}
+
+section.imagem{
+    inset: 6px 6px 13px 0px rgba(0, 0, 0, 0.521);
+    background-attachment: fixed;
+}
+
+section.imagem > p{
+    text-shadow: 1px 1px 0px rgb(0, 0, 0);
+    text-align: left;
+    color: white;
     
-    
+}
+
+section{
+    display: inline-block;
+    padding: 250px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.267);
+}
+
+section#img01{
+    background-image:url(../imagens/Torcida-do-Botafogo-comemora-o-titulo-do-Brasileirao.webp) ;
+    background-position:  center, right ;
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 
@@ -39,4 +69,9 @@ article.principal{
 article > p{
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5em;
+    text-shadow: 1px 1px 0px black;;
+}
+
+article#img02{
+    background-size: cover;
 }
