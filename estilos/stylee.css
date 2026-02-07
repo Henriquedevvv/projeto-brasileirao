@@ -4,9 +4,9 @@ body{
     background-color: #FFFFFF;
 }
  
-header.principal{
-    background-color:#0B5D1E ;
-    text-align: center;
+header.principal2{
+    background-image: linear-gradient(to bottom, #0B5D1E, #139b33 ) ;
+    
     padding: 40px;
     padding-bottom: 10px;
     margin-bottom: 10px;
@@ -19,19 +19,19 @@ header.principal{
 h1.principal{
     font-family: Arial, Helvetica, sans-serif;
     color: white;
+    text-align: center;
 }
 
-nav.principal{
-    padding-bottom: 10px;
-    background-image:linear-gradient(to left, #0f912d,#F5C400 ) ;
-    margin-top: 10px;
+menu > a{
+    
+    
 
 }
 
 article.principal{
     padding-top: 10px;
     text-align: center;
-    background-color:#0B5D1E ;
+    background-image: linear-gradient(to bottom, #139b33, #0B5D1E) ;
     padding: 40px;
     color: white;
 }
