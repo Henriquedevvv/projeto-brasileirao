@@ -1,0 +1,189 @@
+@charset "UTF-8";
+
+@media (max-width: 768px) {
+  section#img02 {
+    background-attachment: scroll;
+    height: 200px; /* menor no celular */
+  }
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    margin: 8px;
+}
+ 
+header.principal2{
+    background-image: linear-gradient(to bottom, #0B5D1E, #139b33 ) ;
+    
+    padding: 20px;
+    padding-bottom: 10px;
+    
+}
+
+.principal3{
+      background-color:  #0B5D1E;
+  color:  #07ff41;
+  padding: 20px;
+  text-align: center;
+  padding: 20px;
+    padding-bottom: 10px;
+}
+
+
+
+h1.principal{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+nav > a{
+    color: #07ff41;
+    text-decoration: none;
+}
+
+menu > a{
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+
+}
+
+section.imagem{
+    inset: 6px 6px 13px 0px rgba(0, 0, 0, 0.521);
+    background-attachment: fixed;
+}
+
+section.imagem > p{
+    text-shadow: 1px 1px 0px rgb(0, 0, 0);
+    text-align: left;
+    color: white;
+    
+}
+
+section{
+    display: inline-block;
+    padding: 250px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.267);
+    overflow: hidden;
+}
+
+section#img01{
+    background-image:url(../imagens/Torcida-do-Botafogo-comemora-o-titulo-do-Brasileirao.webp) ;
+    background-position:  center, right ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+
+}
+
+section#img02{
+     background-image:url(../imagens/botafogo.png) ;
+    background-position:  center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    overflow: hidden;
+    height: 300px;
+    position: relative;
+    
+}
+
+section#img03{
+    background-image: url(../imagens/aaaa.webp);
+    background-position:  center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    overflow: hidden;
+    height: 300px;
+    position: relative;
+}
+
+section#img04{
+    background-image: url(../imagens/1985-marco-aurelio-4-.webp);
+     background-position:  center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    overflow: hidden;
+    height: 300px;
+    position: relative;
+}
+
+section#img05{
+    background-image: url(../imagens/campeao\ vasco.webp);
+     background-position:  center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    overflow: hidden;
+    height: 300px;
+    position: relative;
+}
+
+
+
+
+article.principal{
+    padding-top: 10px;
+    text-align: center;
+    background-image: linear-gradient(to bottom, #139b33, #0B5D1E) ;
+    padding: 40px;
+    color: white;
+}
+
+article > p{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+    text-shadow: 1px 1px 0px black;;
+}
+
+article.corpo{
+    padding-top: 10px;
+    text-align: center;
+    background-image: linear-gradient(to bottom, #0B5D1E, #139b33 ) ;
+    line-height: 1.5em;
+    padding: 40px;
+    color: white;
+
+}
+
+article.Corinthians{
+        padding-top: 10px;
+        text-align: center;
+        background-image: linear-gradient(to bottom,black, rgba(138, 136, 136, 0.26) ) ;
+        line-height: 1.5em;
+        padding: 40px;
+        color: white;
+}
+
+article.coxa{padding-top: 10px;
+        text-align: center;
+        background-image: linear-gradient(to bottom,#0B5D1E, #c5c9c6 ) ;
+        line-height: 1.5em;
+        padding: 40px;
+        color: white;}
+
+    article.Vasco{
+        padding-top: 10px;
+        text-align: center;
+        background-image: linear-gradient(to bottom,black, #c5c9c6 ) ;
+        line-height: 1.5em;
+        padding: 40px;
+        color: white;
+    }
+
+    article.encerramento{
+        text-align: center;
+        background-image: linear-gradient(to bottom, #0B5D1E, #139b33 ) ;
+        line-height: 1.5em;
+        padding: 40px;
+        color: white;
+    }
+
+article#img02{
+    background-size: cover;
+} }
